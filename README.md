@@ -2,9 +2,8 @@
 
 A responsive medical landing page built with HTML and CSS. It is a practice project based on a Figma Community design.
 
-**Live demo:** https://annetae.github.io/Esheba-landing-page/
+**Live demo:** <img width="1468" height="694" alt="header-image" src="https://github.com/user-attachments/assets/54fe4e2d-f487-42db-9c52-861a40099dd0" />
 
-![Preview](images/screenshot.png)
 
 ## Features
 
