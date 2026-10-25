@@ -1,0 +1,45 @@
+.footer {
+  background: var(--blue);
+  color: #fff;
+  padding: 100px;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.footer .foot-grid{
+  display: flex;
+  gap: 160px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid rgba(255, 255, 255, .8);
+  padding-bottom: 60px;
+}
+
+.foot-about h3{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.foot-about p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.foot-links h3{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.foot-links a:hover { text-decoration: underline; }
+
+.foot-address h3{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.copy {
+  text-align: center;
+  padding-top: 40px;
+}

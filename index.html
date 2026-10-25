@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-sheba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">E-<span>sheba</span></a>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Application</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+      <div class="nav-btns">
+        <button class="btn1">Log in</button>
+        <button class="btn2">Sign Up</button>
+      </div>
+    </nav>
+
+    <div class="hero-body container">
+      <div class="hero-text">
+        <h1>Find &amp; Search Your <br><span class="accent">Favourite</span> Doctor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Sem velit viverra amet faucibus.</p>
+
+
+        <form class="search" onsubmit="return false">
+          <label class="field">
+            <span class="icon"><img src="images/person-circle.svg" alt="Person Icon"></span>
+            <select aria-label="Doctor's name">
+              <option>Doctor's Name</option>
+              <option>Dr. Rahman</option>
+              <option>Dr. Karim</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="icon"><img src="images/geo-alt-fill.svg" alt="Location Icon"></span>
+            <select aria-label="Location">
+              <option>Location</option>
+              <option>Dhaka</option>
+              <option>Chittagong</option>
+            </select>
+          </label>
+
+          <button class="search-btn" aria-label="Search">
+            <img src="images/search.svg" alt="Search Icon">
+          </button>
+        </form>
+      </div>
+
+      <div class="doctor-image">
+        <div class="circle"></div>
+        <img src="images/doctor.png" alt="Doctor Image">
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="container stats-in">
+        <div><strong>24/7</strong><span>Online Support</span></div>
+        <div><strong>100+</strong><span>Doctors</span></div>
+        <div><strong>1M+</strong><span>Active Patients</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="specialists container">
+      <h2>Our Consulting Specialists</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-ico"><img src="images/Vector.png" alt="covid-19 image"></div>
+          <h3>Covid-19 Test</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </article>
+        <article class="card-selected">
+          <div class="card-ico"><img src="images/Vector-2.png" alt="heart image"></div>
+          <h3>Heart Lungs</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </article>
+        </article>
+        <article class="card">
+          <div class="card-ico"><img src="images/Vector-3.png" alt="suppliment image"></div>
+          <h3>Suppliment</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </article>
+        <article class="card">
+          <div class="card-ico"><img src="images/Vector-4.png" alt="MentalHealth image"></div>
+          <h3>Mental Health</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split">
+      <img class="photo" src="images/Rectangle 11.png" alt="doctors image">
+      <div>
+        <h2>Why You Choose Us?</h2>
+        <ul class="checks">
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul>
+        <a href="#" class="link">Learn More &rarr;</a>
+      </div>
+    </section>
+
+
+    <section class="testimonials">
+      <div class="t-container">
+        <div class="left">
+          <h2>Whats <span>Our Member's </span><br>Saying About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Sem velit viverra amet faucibus.</p>
+
+          <div class="avatars">
+            <div class="avatar-photos">
+              <img class="avatar" src="images/Ellipse 7.png" alt="avatar1 image">
+              <img class="avatar" src="images/Ellipse 8.png" alt="avatar2 image">
+              <img class="avatar" src="images/Ellipse 9.png" alt="avatar3 image">
+              <img class="avatar" src="images/Ellipse 10.png" alt="avatar4 image">
+              <img class="avatar" src="images/Ellipse 11.png" alt="avatar5 image">
+              <img class="avatar" src="images/Ellipse 12.png" alt="avatar6 image">
+            </div>
+            <p>100+ Reviews</p>
+          </div>
+        </div>
+
+        <article class="review">
+          <div class="top">
+            <div class="Who">
+              <img src="images/Ellipse 10.png" alt="Jane Cooper">
+            </div>
+            <div class="name-date">
+              <b>Jane Cooper</b>
+              <small>12/4/17</small>
+            </div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit <br> viverra amet faucibus. Lorem ipsum
+            dolor sit amet, consectetur <br>adipiscing elit. Sem velit viverra amet faucibus. Lorem ipsum dolor <br> sit
+            amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="future">
+      <div class="future-in">
+        <div class="future-text">
+          <h2>The Future<br>of <span class="accent">Quality Health</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper.
+            Auctor semper fermentum volutpat integer vel. In rhoncus elementum nunc, malesuada mi sed. Nibh est sit
+            lobortis id semper.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper.
+            Auctor semper fermentum volutpat integer vel. In rhoncus elementum nunc, malesuada mi sed. Nibh est sit
+            lobortis id semper.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper.
+            sed. Nibh est sit lobortis id semper.</p>
+          <a href="#" class="learn-more">Learn More &rarr;</a>
+        </div>
+        <img class="dphoto" src="images/Rectangle 15.png" alt="doctor image">
+      </div>
+    </section>
+
+    <section class="sub-container">
+      <div class="subscribtion">
+        <h2>Subscribe To Our Newsletter</h2>
+        <form class="news-form" onsubmit="return false">
+          <button type="submit" aria-label="Subscribe">&rarr;</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="fcontainer">
+      <div class="foot-grid">
+        <div class="foot-about">
+          <h3>E-sheba</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Nec risus feugiat lectus risus sed <br>ullamcorper.
+            Auctor semper fermentum</p>
+          <p>volutpat integer vel. In rhoncus elementum nunc,<br> malesuada mi sed. Nibh est sit lobortis id semper.</p>
+
+          <div class="socials">
+            <img src="images/Group 10.png" alt="social">
+          </div>
+        </div>
+
+        <div class="foot-links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href='#'>About Us</a></li>
+            <li><a href='#'>Privacy Policy</a></li>
+            <li><a href='#'>Our Mission</a></li>
+            <li><a href='#'>Our Team</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-address">
+          <h3>Address</h3>
+          <img src="images/Rectangle 18.png" alt="address">
+        </div>
+      </div>
+
+      <p class="copy">&copy; 2022 All Right Reserved</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

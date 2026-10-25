@@ -1,0 +1,50 @@
+:root {
+  --blue: #285cd6;
+  --blue-dark: #1e46a8;
+  --sky: #e2eefc;
+  --sky-2: #aecbfa;
+  --ink: #0b1a2e;
+  --text: #27364d;
+  --muted: #4b5a70;
+  --line: #3a4658;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--text);
+  line-height: 1.5;
+  background: #fff;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul { 
+  list-style: none; 
+}
+
+a:focus-visible, button:focus-visible, 
+select:focus-visible, input:focus-visible { 
+  outline: 3px solid var(--blue); 
+  outline-offset: 2px; 
+}
+
