@@ -21,7 +21,6 @@ A responsive medical landing page built with HTML and CSS. It is a practice proj
 
 - HTML5
 - CSS3 (Flexbox, Grid, media queries)
-- JavaScript [remove this line if you don't use it]
 - IBM Plex Sans font (Google Fonts)
 
 ## Project structure
@@ -51,4 +50,4 @@ Design: "Free Medical Landing Page Design" from the Figma Community (all rights 
 
 ## Author
 
-[Your name] – [github.com/AnneTae](https://github.com/AnneTae)
+Anna – [github.com/AnneTae](https://github.com/AnneTae)
