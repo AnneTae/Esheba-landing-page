@@ -3,6 +3,7 @@
 A responsive medical landing page built with HTML and CSS. It is a practice project based on a Figma Community design.
 
 **Live demo:** 
+
 <img width="1468" height="694" alt="header-image" src="https://github.com/user-attachments/assets/54fe4e2d-f487-42db-9c52-861a40099dd0" />
 
 <img width="1470" height="840" alt="main1" src="https://github.com/user-attachments/assets/eb477e25-3461-4002-8fbb-1019bbcc751a" />
